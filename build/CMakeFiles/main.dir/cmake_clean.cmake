@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/source/discretization.cpp.obj"
+  "CMakeFiles/main.dir/source/discretization.cpp.obj.d"
   "CMakeFiles/main.dir/source/initialize.cpp.obj"
   "CMakeFiles/main.dir/source/initialize.cpp.obj.d"
   "CMakeFiles/main.dir/source/main.cpp.obj"

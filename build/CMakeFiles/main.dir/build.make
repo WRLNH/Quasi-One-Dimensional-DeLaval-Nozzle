@@ -97,20 +97,36 @@ CMakeFiles/main.dir/source/initialize.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/source/initialize.cpp.s"
 	"D:/Program Files/mingw64/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Users/17894/Desktop/Curriculum/Fundamental of Computational Fluid Dynamics/Quasi-One-Dimensional DeLaval Nozzle/source/initialize.cpp" -o CMakeFiles/main.dir/source/initialize.cpp.s
 
+CMakeFiles/main.dir/source/discretization.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/source/discretization.cpp.obj: C:/Users/17894/Desktop/Curriculum/Fundamental\ of\ Computational\ Fluid\ Dynamics/Quasi-One-Dimensional\ DeLaval\ Nozzle/source/discretization.cpp
+CMakeFiles/main.dir/source/discretization.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:/Users/17894/Desktop/Curriculum/Fundamental of Computational Fluid Dynamics/Quasi-One-Dimensional DeLaval Nozzle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/source/discretization.cpp.obj"
+	"D:/Program Files/mingw64/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/source/discretization.cpp.obj -MF CMakeFiles/main.dir/source/discretization.cpp.obj.d -o CMakeFiles/main.dir/source/discretization.cpp.obj -c "C:/Users/17894/Desktop/Curriculum/Fundamental of Computational Fluid Dynamics/Quasi-One-Dimensional DeLaval Nozzle/source/discretization.cpp"
+
+CMakeFiles/main.dir/source/discretization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/source/discretization.cpp.i"
+	"D:/Program Files/mingw64/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:/Users/17894/Desktop/Curriculum/Fundamental of Computational Fluid Dynamics/Quasi-One-Dimensional DeLaval Nozzle/source/discretization.cpp" > CMakeFiles/main.dir/source/discretization.cpp.i
+
+CMakeFiles/main.dir/source/discretization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/source/discretization.cpp.s"
+	"D:/Program Files/mingw64/bin/g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:/Users/17894/Desktop/Curriculum/Fundamental of Computational Fluid Dynamics/Quasi-One-Dimensional DeLaval Nozzle/source/discretization.cpp" -o CMakeFiles/main.dir/source/discretization.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/source/main.cpp.obj" \
-"CMakeFiles/main.dir/source/initialize.cpp.obj"
+"CMakeFiles/main.dir/source/initialize.cpp.obj" \
+"CMakeFiles/main.dir/source/discretization.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/source/main.cpp.obj
 main.exe: CMakeFiles/main.dir/source/initialize.cpp.obj
+main.exe: CMakeFiles/main.dir/source/discretization.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:/Users/17894/Desktop/Curriculum/Fundamental of Computational Fluid Dynamics/Quasi-One-Dimensional DeLaval Nozzle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:/Users/17894/Desktop/Curriculum/Fundamental of Computational Fluid Dynamics/Quasi-One-Dimensional DeLaval Nozzle/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable main.exe"
 	"D:/Program Files/CMake/bin/cmake.exe" -E rm -f CMakeFiles/main.dir/objects.a
 	"D:/Program Files/mingw64/bin/ar.exe" qc CMakeFiles/main.dir/objects.a @CMakeFiles/main.dir/objects1.rsp
 	"D:/Program Files/mingw64/bin/g++.exe" -g -Wl,--whole-archive CMakeFiles/main.dir/objects.a -Wl,--no-whole-archive -o main.exe -Wl,--out-implib,libmain.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles/main.dir/linkLibs.rsp

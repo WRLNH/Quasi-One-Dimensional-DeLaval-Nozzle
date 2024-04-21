@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+source/discretization.obj: source/discretization.cpp.obj
+.PHONY : source/discretization.obj
+
+# target to build an object file
+source/discretization.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/discretization.cpp.obj
+.PHONY : source/discretization.cpp.obj
+
+source/discretization.i: source/discretization.cpp.i
+.PHONY : source/discretization.i
+
+# target to preprocess a source file
+source/discretization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/discretization.cpp.i
+.PHONY : source/discretization.cpp.i
+
+source/discretization.s: source/discretization.cpp.s
+.PHONY : source/discretization.s
+
+# target to generate assembly for a file
+source/discretization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/source/discretization.cpp.s
+.PHONY : source/discretization.cpp.s
+
 source/initialize.obj: source/initialize.cpp.obj
 .PHONY : source/initialize.obj
 
@@ -186,6 +210,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... source/discretization.obj"
+	@echo "... source/discretization.i"
+	@echo "... source/discretization.s"
 	@echo "... source/initialize.obj"
 	@echo "... source/initialize.i"
 	@echo "... source/initialize.s"
