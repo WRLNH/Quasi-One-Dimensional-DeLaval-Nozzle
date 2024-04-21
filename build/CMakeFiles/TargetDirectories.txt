@@ -1,0 +1,3 @@
+C:/Users/17894/Desktop/Curriculum/Fundamental of Computational Fluid Dynamics/Quasi-One-Dimensional DeLaval Nozzle/build/CMakeFiles/main.dir
+C:/Users/17894/Desktop/Curriculum/Fundamental of Computational Fluid Dynamics/Quasi-One-Dimensional DeLaval Nozzle/build/CMakeFiles/edit_cache.dir
+C:/Users/17894/Desktop/Curriculum/Fundamental of Computational Fluid Dynamics/Quasi-One-Dimensional DeLaval Nozzle/build/CMakeFiles/rebuild_cache.dir
