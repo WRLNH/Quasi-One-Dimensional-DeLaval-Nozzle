@@ -1,7 +1,7 @@
 #include "..\include\initialize.h"
 #include <cmath>
 
-void initialize(double *x, double *A, double *rho, double *T, double *V, int N)
+void initialize(double *x, double *A, double *rho, double *V, double *T, int N)
 {
     for (int i = 0; i < N; i++)
     {

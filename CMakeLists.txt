@@ -6,4 +6,4 @@ set(CMAKE_CXX_COMPILER "D:/Program Files/mingw64/bin/g++.exe")
 
 project(main)
 
-add_executable(main ./source/main.cpp ./source/initialize.cpp ./source/discretization.cpp)
+add_executable(main ./source/main.cpp ./source/initialize.cpp ./source/discretization.cpp ./source/control.cpp)
