@@ -5,7 +5,7 @@ void initialize(double *x, double *A, double *rho, double *V, double *T, int N)
 {
     for (int i = 0; i < N; i++)
     {
-        *(x + i) = 0 + 3.0 / 30 * i;
+        *(x + i) = 0 + 3.0 / (N - 1) * i;
     }
     for (int i = 0; i < N; i++)
     {
