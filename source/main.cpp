@@ -128,7 +128,10 @@ int main()
         printf("%.5lf    %.5lf    %.5lf    %.5lf    %.5lf    %.5lf    %.5lf\n", nozzelParameter.x[i],
                nozzelParameter.A[i], rho.Norm[i], V.Norm[i], T.Norm[i], P.Norm[i], Ma.Norm[i]);
     }
-    std::cout << "At throat: rho * V * A = " << rho.Norm[15] * V.Norm[15] * nozzelParameter.A[15] << std::endl;
+    std::cout << "At throat: rho * V * A = "
+              << rho.Norm[nozzelParameter.nodes / 2] * V.Norm[nozzelParameter.nodes / 2] *
+                     nozzelParameter.A[nozzelParameter.nodes / 2]
+              << std::endl;
     std::cout << "Time: " << time.t << "s" << std::endl;
 
     return 0;
